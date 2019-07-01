@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 0991fa5b2e3c73d4e933199c88431677
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BLleg1
+    100002: BLleg2
+    100004: BLleg3
+    100006: BLleg4
+    100008: BLleg5
+    100010: BLleg5 1
+    100012: BRleg1
+    100014: BRleg2
+    100016: BRleg3
+    100018: BRleg4
+    100020: BRleg5
+    100022: BRleg5 1
+    100024: FLleg1
+    100026: FLleg2
+    100028: FLleg3
+    100030: FLleg4
+    100032: FRleg1
+    100034: FRleg2
+    100036: FRleg3
+    100038: FRleg4
+    100040: head
+    100042: hip
+    100044: jaw
+    100046: neck
+    100048: //RootNode
+    100050: pigMesh
+    100052: root
+    100054: spine1
+    100056: spine2
+    400000: BLleg1
+    400002: BLleg2
+    400004: BLleg3
+    400006: BLleg4
+    400008: BLleg5
+    400010: BLleg5 1
+    400012: BRleg1
+    400014: BRleg2
+    400016: BRleg3
+    400018: BRleg4
+    400020: BRleg5
+    400022: BRleg5 1
+    400024: FLleg1
+    400026: FLleg2
+    400028: FLleg3
+    400030: FLleg4
+    400032: FRleg1
+    400034: FRleg2
+    400036: FRleg3
+    400038: FRleg4
+    400040: head
+    400042: hip
+    400044: jaw
+    400046: neck
+    400048: //RootNode
+    400050: pigMesh
+    400052: root
+    400054: spine1
+    400056: spine2
+    4300000: pigMesh
+    7400000: walk
+    7400002: trot
+    7400004: run
+    7400006: idle
+    7400008: idleLookAround
+    7400010: idleEat
+    7400012: die
+    7400014: attack
+    7400016: damaged
+    9500000: //RootNode
+    13700000: pigMesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 93ff492c466568d46863ad0b2ba6fa9c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: trot
+      takeName: Take 001
+      firstFrame: 43
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idleLookAround
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idleEat
+      takeName: Take 001
+      firstFrame: 301
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 401
+      lastFrame: 426
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 430
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: damaged
+      takeName: Take 001
+      firstFrame: 461
+      lastFrame: 475
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pigMesh
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/BLleg1
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4
+        weight: 1
+      - path: root/hip/BLleg1/BLleg2/BLleg3/BLleg4/BLleg5
+        weight: 1
+      - path: root/hip/BRleg1
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4
+        weight: 1
+      - path: root/hip/BRleg1/BRleg2/BRleg3/BRleg4/BRleg5
+        weight: 1
+      - path: root/hip/spine1
+        weight: 1
+      - path: root/hip/spine1/spine2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FLleg1/FLleg2/FLleg3/FLleg4/BLleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/FRleg1/FRleg2/FRleg3/FRleg4/BRleg5 1
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head
+        weight: 1
+      - path: root/hip/spine1/spine2/neck/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: pigDifuse3
+  m_Shader: {fileID: 4800000, guid: 7857079fa0da7423e88b0e143ede385f, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _FOGTOGGLE_ON _GLOBALFOGINFLUENCE_ON _NORMALMAP
+    _REPLACEVCS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 70ad1e857a4a9144099d440acc3ea1d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightingRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclussionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonShade:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoGloss: 0
+    - _AlbedoGlossIntensity: 1
+    - _AttenScaler: 0.748
+    - _BumpScale: 0
+    - _ColorSculpt: 0.36
+    - _CutOut: 0
+    - _Cutoff: 0.5
+    - _DarkColorBrightness: 0.48
+    - _DetailNormalMapScale: 1
+    - _DistorationIntensity: 0
+    - _DstBlend: 10
+    - _DustAmount: 1
+    - _FOGTOGGLE: 1
+    - _FogHeight: 1.36
+    - _FogRange: 20
+    - _FogStart: 61.73
+    - _Gloss: 0.86
+    - _GlossIntensity: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _LightColorBrightness: 0.34
+    - _LightCutoff: 0.11
+    - _Metallic: 1
+    - _Metalness: 1
+    - _Mode: 3
+    - _NormalIntensity: 0.43
+    - _OcclusionStrength: 1
+    - _OcclussionIntensity: 0.161
+    - _Outline: 0.005
+    - _OutlineWidth: 0
+    - _Parallax: 0.02
+    - _REPLACEVCs: 1
+    - _ReflectionIntensity: 0
+    - _ReflectionSharpness: 0
+    - _Shininess: 0.030000003
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 0
+    - _globalfoginfluence: 1
+    - _heightFogEnd: 1
+    - _heightFogStart: 0.76
+    m_Colors:
+    - _CameraPos: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.7941176, b: 0.9346855, a: 0}
+    - _DistanceFogColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustColor: {r: 0.36764705, g: 0.12155474, b: 0.010813159, a: 0}
+    - _DustDirection: {r: 0, g: 0.35, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor: {r: 0.28676468, g: 0.0063256975, b: 0.0063256975, a: 1}
+    - _HDREmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HIGHLIGHTCOLORreplaceVCblue: {r: 1, g: 1, b: 1, a: 1}
+    - _HeightFogColor: {r: 0.13468562, g: 0, b: 0.2352941, a: 1}
+    - _OutlineColor: {r: 1, g: 0, b: 0, a: 1}
+    - _PRIMARYCOLORreplaceVCblack: {r: 1, g: 1, b: 1, a: 1}
+    - _SECONDARYCOLORreplaceVCred: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.1544118, g: 0.1544118, b: 0.1544118, a: 1}
